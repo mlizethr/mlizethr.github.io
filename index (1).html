@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria Lizeth Reyna</title>
+  <meta name="description"
+      content="Maria Lizeth Reyna is a PhD student in Computer Science at UTEP, working on machine learning, uncertainty-aware models, and medical decision support systems." />
+  <meta name="author" content="Maria Lizeth Reyna" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="google-site-verification" content="hWy_gCXZcTHpXhgR6a9Y7rQz7Ky67lxqV883J5dqdKs" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Maria Lizeth Reyna</h1>
+    <img src="photo.jpg" alt="Maria Lizeth Reyna" class="profile-pic" />
+    <p class="subtitle">
+      PhD Student, Computer Science<br />
+      The University of Texas at El Paso
+    </p>
+
+    <section>
+      <p>
+        I am a PhD student in Computer Science at the University of Texas at El Paso and a medical doctor at IMSS, public health sector institution in Mexico.
+        I obtained an M.S. in Computer Science from UTEP and a Licenciatura en Medico Cirujano (MBBS equivalent) from Universidad Autónoma de Ciudad Juárez.
+      </p>
+
+      <p>
+        My background combines computer science and clinical training, with an
+        interest in the development of machine learning methods for medical
+        decision-making. I am particularly interested in models that incorporate
+        uncertainty, interpretability, and principled reasoning, and in bridging
+        theoretical aspects of machine learning with the conditions arising in
+        real-world clinical settings.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Machine Learning</li>
+        <li>Uncertainty Quantification</li>
+        <li>Interpretable and Explainable Models</li>
+        <li>Decision Support Systems</li>
+        <li>Computational Methods in Healthcare</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Teaching</h2>
+    
+      <p>
+        <strong>Teaching Assistant</strong><br />
+        Department of Computer Science, The University of Texas at El Paso<br />
+      </p>
+    
+      <ul>
+        <li>Object-Oriented Programming</li>
+        <li>Computer Organization</li>
+        <li>Operating Systems</li>
+      </ul>
+    
+      <p>
+        Participated in the UTEP SEP professional development program for Teaching Assistants (2025).
+      </p>
+    </section>
+
+    
+    <section>
+      <h2>Publications</h2>
+
+      <p>
+        <strong>Reyna Cruz, M. L.</strong>, Tabares, R., Ceberio, M., Kreinovich, V.,
+        Lauter, C., & Márquez Barraza, C. A. M.<br />
+        <em>Machine Learning-Based Screening for Pediatric Hip Dysplasia: Towards a
+        Validated Approach.</em><br />
+        Proceedings of the 58th Asilomar Conference on Signals, Systems, and
+        Computers, IEEE, 2024.
+      </p>
+
+      <p>
+        <strong>Reyna Cruz, M. L.</strong>, Ceberio, M., Lauter, C., & López Valles,
+        J. M.<br />
+        <em>Deep Learning Explainability on Non-Hodgkin Lymphoma: Relapse &
+        Treatment.</em><br />
+        Artificial Intelligence in Medicine and Healthcare, 2025.
+      </p>
+    </section>
+
+    <section>
+      <h2>Posters & Other Contributions</h2>
+
+      <p>
+        <strong>Reyna Cruz, M. L.</strong>, Ceberio, M., & Lauter, C.<br />
+        <em>Trust by Design: Building Reliable Clinical Artificial Intelligence to
+        Advance Quality in Patient-Centered Care.</em><br />
+        Poster presented at Mayo Clinic Forward: Building Trust to Shape the Future
+        of Quality and Human Experience, 2025.
+      </p>
+
+      <p>
+        <strong>Reyna Cruz, M. L.</strong>, et al.<br />
+        <em>Contribution to Error Analysis of Deep Neural Networks: Case of the
+        Activation Functions.</em><br />
+        INRIA HAL, 2025.
+      </p>
+    </section>
+
+    <section>
+      <h2>Curriculum Vitae</h2>
+      <p>
+        <a href="cv.pdf" target="_blank">Download CV (PDF)</a>
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cargador de Archivos Seguro</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+
+  <div class="bg-white p-8 rounded-2xl shadow-xl w-96 text-center relative">
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">Subir Archivos Seguro</h2>
+
+    <div id="loginForm">
+      <input id="username" placeholder="Username" class="border p-2 w-full mb-2 rounded">
+      <input id="password" type="password" placeholder="Password" class="border p-2 w-full mb-4 rounded">
+      <button onclick="login()" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded w-full">Login</button>
+    </div>
+
+    <form id="uploadForm" style="display:none;" class="space-y-4">
+      <input type="file" id="fileInput" class="border p-2 w-full rounded" multiple><br>
+
+      <div class="w-full bg-gray-200 rounded-full h-2.5">
+        <div id="progressBar" class="bg-green-500 h-2.5 rounded-full" style="width: 0%;"></div>
+      </div>
+
+      <button type="button" onclick="uploadFiles()" class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded w-full">Upload</button>
+      <button type="button" onclick="logout()" class="bg-gray-400 hover:bg-gray-500 text-white py-2 px-4 rounded w-full">Logout</button>
+
+      <p id="status" class="text-sm text-gray-700 mt-2"></p>
+    </form>
+  </div>
+
+  <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center w-80">
+      <h3 class="text-lg font-semibold mb-2 text-green-600">Upload Successful!</h3>
+      <p id="modalMessage" class="text-sm text-gray-700 mb-4"></p>
+      <button onclick="closeModal()" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">OK</button>
+    </div>
+  </div>
+
+  <script>
+    const UPLOAD_URL = 'https://flaskuploader.onrender.com/upload';
+
+    let credentials = localStorage.getItem('credentials') || null;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      if (credentials) {
+        document.getElementById('loginForm').style.display = 'none';
+        document.getElementById('uploadForm').style.display = 'block';
+      }
+    });
+
+    function login() {
+      const user = document.getElementById('username').value.trim();
+      const pass = document.getElementById('password').value.trim();
+      if (!user || !pass) {
+        alert("Please enter both username and password.");
+        return;
+      }
+      credentials = btoa(`${user}:${pass}`);
+      localStorage.setItem('credentials', credentials);
+      document.getElementById('loginForm').style.display = 'none';
+      document.getElementById('uploadForm').style.display = 'block';
+    }
+
+    function logout() {
+      localStorage.removeItem('credentials');
+      credentials = null;
+      document.getElementById('loginForm').style.display = 'block';
+      document.getElementById('uploadForm').style.display = 'none';
+      document.getElementById('status').textContent = '';
+      document.getElementById('progressBar').style.width = '0%';
+    }
+
+    async function uploadFiles() {
+      const fileInput = document.getElementById('fileInput');
+      const files = fileInput.files;
+      if (!files.length) {
+        alert('Please select at least one file.');
+        return;
+      }
+
+      const formData = new FormData();
+      for (let file of files) formData.append('file', file);
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', UPLOAD_URL, true);
+      xhr.setRequestHeader('Authorization', `Basic ${credentials}`);
+
+      xhr.upload.onprogress = (event) => {
+        if (event.lengthComputable) {
+          const percent = (event.loaded / event.total) * 100;
+          document.getElementById('progressBar').style.width = percent + '%';
+        }
+      };
+
+      xhr.onload = () => {
+        const statusEl = document.getElementById('status');
+        if (xhr.status === 200) {
+          const result = JSON.parse(xhr.responseText);
+          const uploadedFile = result.filename || 'Archivo cargado';
+          statusEl.textContent = result.success || 'Upload successful!';
+          showModal([uploadedFile]);
+          document.getElementById('progressBar').style.width = '0%';
+          fileInput.value = '';
+        } else if (xhr.status === 401) {
+          statusEl.textContent = "Unauthorized — check credentials.";
+        } else {
+          statusEl.textContent = 'Upload failed. See console for details.';
+          console.error('Upload error', xhr.status, xhr.responseText);
+        }
+      };
+
+      xhr.onerror = () => {
+        document.getElementById('status').textContent = 'Network error.';
+      };
+
+      xhr.send(formData);
+    }
+
+    function showModal(files) {
+      const timestamp = new Date().toLocaleString();
+      document.getElementById('modalMessage').innerHTML =
+        `Uploaded <b>${files.length}</b> file(s):<br>${files.join('<br>')}<br><br><i>${timestamp}</i>`;
+      document.getElementById('modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.add('hidden');
+    }
+  </script>
+</body>
+</html> -->
+
+
